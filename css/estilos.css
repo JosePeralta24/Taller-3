@@ -1,0 +1,238 @@
+.contenedorPadre {
+    background-image: url(../recursos/imagenes/viatren.jpg);
+    background-repeat: no-repeat;
+    height: 1100px;
+    position: relative;
+    margin: -8px;
+    background-size: 100% 770px;
+    
+
+}
+
+.contenedorPadre::after {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 770px;
+    content: "";
+    z-index: 1;
+
+}
+
+.menu {
+    position: absolute;
+    z-index: 2;
+    padding: 26px 0px 20px 20px;
+    background-color: #fff;
+    margin: 60px 0px 0px 14%;
+    width: 72%;
+    height: 5.02%;
+}
+
+.navegador ul {
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: #888;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.fondoHome {
+    background-color: #9ed134;
+    
+}
+
+.navegador li {
+    border: 1px solid #eee;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    display: inline-block;
+    padding: 43px 27px;
+    margin-top: -93px;
+    font-size: 13px;
+    color: #888;
+
+}
+
+.tarjeta {
+    background-color: #fff;
+    text-align: center;
+    margin: 340px 0px 0px 221px;
+    position: absolute;
+    padding: 40px 35px;
+    z-index: 2;
+
+}
+
+.precioTarjeta {
+    background-color: #e54747;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.tituloTarjeta {
+    font-size: 25px;
+    color: #444;
+    margin: 38px 0px 26px 0px;
+
+}
+
+.textoTarjeta {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 40px;
+
+} 
+
+.botonTarjeta {
+    background-color: #9ed134;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 35px;
+    font-size: 14px;
+
+}
+
+.tarjeta p span {
+    color: #9ed134;
+
+}
+
+.paises {
+    position: absolute;
+    display: flex;
+    margin: 45.5% 0 0 14%;
+    z-index: 2;
+    width: auto;
+    
+
+}
+
+.titulos {
+    background-color: #9ed134;
+    color: #fff;
+    padding: 3.7% 16.5%;
+    text-align: center;
+    font-size: 145%;
+    width: 57%;
+    font-weight: 100;
+
+}
+
+.titulos > p {
+    margin: 0px;
+}
+
+.fotos {
+    margin-right: 25px;
+    width: 90%;
+    
+
+}
+
+.fotos > img {
+    width: 100%;
+    
+}
+
+.fotos > a {
+    text-decoration: none;
+    background-color: #9ed134;
+    color: white;
+    text-align: center;
+    padding: 5% 0;
+    font-weight: 800;
+    font-size: 14px;
+    display: block;
+
+    
+}
+
+.textoVerde {
+    color: #9ed134;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.textoRojo {
+    color: red;
+    margin-top: 1px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.flechasExternas{
+    position: absolute;
+    text-decoration: none;
+    z-index: 2;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px 10px;
+    margin-top: 25%;
+
+}
+
+.flechasInternas {
+    position: absolute;
+    background-color: #9ed134;
+    margin-top: 55%;
+    margin-left: 14%;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 3;
+
+
+}
+
+.contenedorPadre2 {
+    margin-left: -8px;
+    margin-top: 5%;
+    margin-right: -8px ;
+    display: flex;
+    background-color: #eee;
+    
+    
+}
+ .contenedorPadre2 > img {
+    gap: 50px;
+    border-left: 1px solid #d4d4d4;
+    padding: 2% 2.1% 2% 3%;
+
+    
+ }
+
+ .contenedorFinal {
+    display: flex;
+    padding: 8%;
+    font-size: 12px;
+    color: #888;
+
+
+ }
+
+.contenedorFinal > div > ul > li {
+    display: inline;
+    margin-right: 30px;
+    
+
+ }
+
+ .contenedorFinal > div > p > span {
+    color: #9ed134;
+ }
+
